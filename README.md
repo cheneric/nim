@@ -3,7 +3,9 @@
 ### Overview
 
 This is the parent project of a group of subprojects that implement the following features related 
-to the "Token Game".  I wrote it in a single 24-hour sitting.
+to the "Token Game".
+
+I wrote it in a single 24-hour sitting.
 
 Subproject | Description
 ---------- | -----------
