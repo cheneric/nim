@@ -1,0 +1,24 @@
+buildscript {
+	repositories {
+		maven {
+			url "https://plugins.gradle.org/m2/"
+		}
+	}
+
+	dependencies {
+		classpath "gradle.plugin.org.jruyi.gradle:thrift-gradle-plugin:0.3.0"
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'org.jruyi.thrift'
+
+version = '1.0.0-SNAPSHOT'
+
+dependencies {
+	compile 'org.apache.thrift:libthrift:0.9.2'
+}
+
+compileThrift {
+	generator 'java'
+}

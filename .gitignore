@@ -1,0 +1,16 @@
+# eclipse
+.apt_generated/
+.settings/
+bin/
+.classpath
+.factorypath
+.project
+
+# intellij
+/.idea/
+*.iml
+
+# gradle
+/.gradle/
+build/
+

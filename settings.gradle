@@ -1,0 +1,4 @@
+include 'ai',
+	'api',
+	'cli-client',
+	'server'
