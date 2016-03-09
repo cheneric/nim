@@ -12,7 +12,7 @@ Subproject | Description
 `api` | the Thrift RPC API bewteen the `server` and all clients
 `ai` | an AI player/client of the `server`
 `cli-client` | a basic command-line client of the `server`
-`sever` | a server that hosts multiple concurrent "Token Games"
+`server` | a server that hosts multiple concurrent "Token Games"
 
 
 ### How to run
