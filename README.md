@@ -1,4 +1,4 @@
-## `token-game`
+## `nim`
 
 ### Overview
 
