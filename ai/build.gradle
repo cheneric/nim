@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'chen.eric.token.ai.Ai'
+mainClassName = 'chen.eric.nim.ai.Ai'
 
 version = '1.0.0-SNAPSHOT'
 

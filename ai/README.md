@@ -2,17 +2,17 @@
 
 ### Overview
 
-This project implements a single-threaded "Token Game" AI client.
+This project implements a single-threaded Nim AI client.
 
 ### Algorithm
 
 It implements the following algorithm:
 
-	1. Let the "Token Sum" be defined as the binary sum of the number of tokens in
+	1. Let the "Nim Sum" be defined as the binary sum of the number of tokens in
 all of the buckets but not carrying.  (That is, write the number of tokens in
 each bucket as a binary number, add them, but do not carry while adding.)
 
-	2. If possible, make a move so that the "Token Sum" will be 0 after the move.
+	2. If possible, make a move so that the "Nim Sum" will be 0 after the move.
 
 	3. Otherwise, remove a single token from a random bucket.
 

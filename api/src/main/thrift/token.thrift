@@ -1,4 +1,4 @@
-namespace java chen.eric.token.api
+namespace java chen.eric.nim.api
 
 exception InvalidGameTokenException {
 	1:string message
@@ -37,7 +37,7 @@ struct Game {
 	3:GameState gameState
 }
 
-service TokenGame {
+service Nim {
 	Game autoMatch(1:string playerName) throws (1:ServerException serverException),
 	GameState move(1:string gameToken, 
 		2:i32 bucketIndex, 

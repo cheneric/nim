@@ -3,8 +3,8 @@
 ### Overview
 
 This project is a basic implementation of a text-based, single-threaded 
-"Token Game" client.  It uses the Thrift client API in order to make blocking
-calls to Thrift endpoints on an `server`.
+Nim client.  It uses the Thrift client API in order to make blocking
+calls to Thrift endpoints on a `server`.
 
 ### How to run
 

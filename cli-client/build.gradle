@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'chen.eric.token.client.cli.Client'
+mainClassName = 'chen.eric.nim.client.cli.Client'
 
 version = '1.0.0-SNAPSHOT'
 

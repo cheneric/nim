@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project implements a "Token Game" server using [Apache Thrift](https://thrift.apache.org/)
+This project implements a Nim server using [Apache Thrift](https://thrift.apache.org/)
 to expose an RPC API to clients.
 
 ### Design goals
@@ -43,4 +43,3 @@ argument | default
 -------- | -------
 portNumber | 9090
 ```
-

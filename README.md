@@ -2,8 +2,7 @@
 
 ### Overview
 
-This is the parent project of a group of subprojects that implement the following features related 
-to the "Token Game".
+This is the parent project of a group of subprojects that implement a [Nim](https://en.wikipedia.org/wiki/Nim) server, AI, and command-line client.
 
 I wrote it in a single 24-hour sitting.
 
@@ -12,7 +11,7 @@ Subproject | Description
 `api` | the Thrift RPC API bewteen the `server` and all clients
 `ai` | an AI player/client of the `server`
 `cli-client` | a basic command-line client of the `server`
-`server` | a server that hosts multiple concurrent "Token Games"
+`server` | a server that hosts multiple concurrent Nim games
 
 
 ### How to run
@@ -42,7 +41,7 @@ Thrift compiler.  See [api/README.md](api/README.md)
 The game starts with a random number of tokens in a random number of buckets.
 2 players alternate turns; the first to play is chosen at random.
 
-On a player's turn, (s)he may remove 1 or more (up to all of the token in a
+On a player's turn, (s)he must remove 1 or more (up to all of the token in a
 bucket) from a single bucket with tokens.  The turn then passes to the other
 player.
 
