@@ -1,4 +1,4 @@
-namespace java chen.eric.nim.api
+namespace java cheneric.nim.api
 
 exception InvalidGameTokenException {
 	1:string message
