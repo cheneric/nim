@@ -52,8 +52,8 @@ The player who takes the last token wins!
 
 This project was built and tested using the following environments:
 
- | Environment 1             | Enironment 2
--| ------------------------- | ------------------------
+     | Environment 1         | Enironment 2
+---- | --------------------- | ------------------------
 OS   | OS X Yosemite 10.10.4 | OS X El Capitain 10.11.3
 Java | 1.7.0_80-b15          | 1.8.0_66-b17
 
